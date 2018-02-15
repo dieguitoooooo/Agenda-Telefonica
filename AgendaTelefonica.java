@@ -33,4 +33,12 @@ public class AgendaTelefonica
     {
         System.out.println(agenda.get(name));
     }
+    
+    /**
+     * Impime las claves de nuesta agenda
+     */
+    public void printAllNames()
+    {
+        System.out.println(agenda.keySet());
+    }
 }
